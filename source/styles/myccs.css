@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body {
+    font-family:'Poppins', sans-serif;
+     background: linear-gradient(80deg, #b8c2b8,#e181958f,#8e9eab,#c97f8deb ); 
+    /* background-image: radial-gradient(at 18.431611235200673% 68.02273290422211%, hsla(283.4782608695652, 61.06194690265484%, 77.84313725490196%, 1) 0%, hsla(283.4782608695652, 61.06194690265484%, 77.84313725490196%, 0) 100%), radial-gradient(at 99.34788703445282% 6.641212001956287%, hsla(341.93548387096774, 100%, 81.76470588235294%, 1) 0%, hsla(341.93548387096774, 100%, 81.76470588235294%, 0) 100%), radial-gradient(at 16.28491359173687% 70.08021727001335%, hsla(18.333333333333346, 100%, 78.82352941176471%, 1) 0%, hsla(18.333333333333346, 100%, 78.82352941176471%, 0) 100%), radial-gradient(at 92.58393119628323% 50.36733041970341%, hsla(44.117647058823536, 71.83098591549293%, 72.15686274509804%, 1) 0%, hsla(44.117647058823536, 71.83098591549293%, 72.15686274509804%, 0) 100%), radial-gradient(at 26.10421084816692% 96.48765271372268%, hsla(102.6086956521739, 61.06194690265484%, 77.84313725490196%, 1) 0%, hsla(102.6086956521739, 61.06194690265484%, 77.84313725490196%, 0) 100%), radial-gradient(at 93.29513093420437% 53.386636645671445%, hsla(283.4782608695652, 61.06194690265484%, 77.84313725490196%, 1) 0%, hsla(283.4782608695652, 61.06194690265484%, 77.84313725490196%, 0) 100%); */
+    font-size:25px;
+p{
+    color:#302d2d
+}
+.logo {
+    font-size:25px;
+    margin-left:4em;
+    margin-top:200px;
+    
+}
+}
+
+
+ /* Прошлая версия сайта  !!!!!!!!!!!!!11 */
+ /* .wrapper {
+    background: linear-gradient(80deg, #abbaab,#8e9eab,  #83a4d4, #eef2f3);
+    width: 100%;
+    overflow-x:hidden;
+    }
+    
+    .container {
+    width:1400px;
+    margin:0 auto;
+    }
+    header{
+    padding:56px 0;
+    }
+
+    header  .footer .blocks .logo{
+    text-transform:uppercase;
+    font-size:29px;
+    font-weight:800;
+    }
+    header nav {
+    float :right;
+    width:50%;
+    }
+    header nav ul {
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    z-index:2;
+    position:relative;
+    }
+    header nav ul li {
+    display:inline-block;
+    
+    }
+    header  nav li a{
+     color:#fff
+     }
+    
+     header nav ul li.active:after {
+     content:'';
+    
+     display:block;
+     width:40px;
+     height:5px;
+     background:#DC7000;
+     border-radius:10px;
+     position:relative;
+     top:5px;
+     left:2px;
+     }
+    
+     
+    header nav ul li:not(.active):not(.btn) a:hover {
+    border-bottom:5px solid #DC7000;
+    }
+     header nav ul li.btn a, .email .block button{
+     background:#FA9021;
+    padding:9px 17px;
+    border-radius:5px;
+    transition: all 500ms ease;
+     }
+     header nav ul li.btn a:hover, .email .block button :hover{
+     background:#a02604;
+     }
+    
+    
+    
+    .hero {
+    padding-bottom:50px;
+    position:relative;
+    z-index:1;
+    
+    }
+    .hero--info {
+    width:530px;
+    padding-top:40px;
+    }
+    .hero--info h2 {
+    color:#E87D0E;
+    font-size:20px;
+    font-weight:600;
+    }
+   
+    .hero--info p {
+    font-weight:500;
+    line-height:170%;
+    margin:10px 0;
+    }
+    
+    .hero--info .btn:hover , .hero-about .info .btn:hover {
+    cursor:pointer;
+    transform:scale(1.2);
+    }
+    .hero img {
+    
+    position :absolute;
+     top:0px;
+     right:0;
+     filter: brightness(90%);
+      filter: grayscale(20%);
+    
+     } */
+ /* прошлая версия сайта вверх      */
+ .hero--info {
+ margin-top:2em;
+ }
+ .container-fluid
+header nav ul {
+list-style:none;
+display:flex;
+justify-content:space-between;
+z-index:2;
+position:relative;
+
+ }
+ 
+.nav-link {
+    color:#736767;
+
+        }
+
+.navbar-nav .nav-link.active {
+    
+    color:rgb(48, 51, 51);
+  
+        
+}
+.navbar-brand img {
+width:35px;
+}
+.navbar-brand img {
+    width:40px;
+
+}
+.navbar-toggler (ЦВЕТ КНОПКИ БУРГЕРА){
+    background-color:rgb(161, 160, 159);
+}
+.sidebar {
+    color:#3f3838;
+    background: linear-gradient(93deg, #379a9f 27%, #776378 90%);
+}
+.card {
+    background: linear-gradient(93deg, #379a9f 27%, #716072 90%);
+    color:ntiquewhite;
+    font-size:14px;
+    
+}
+.card a {
+    text-decoration: none;
+    color:#443c3c;
+}
+.slide-text, 
+.footer-text {
+    color:#383131;
+    margin:auto auto;
+}
+footer , 
+.btn-outline-primary {
+    background:linear-gradient(80deg, #b8c2b8,#e181958f,#8e9eab,#c97f8deb );
+    
+}
+.media-links {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.vk {animation: vk1 2s ease 0s infinite normal forwards;}
+@keyframes vk1 {
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+    
+
+
+
+
+@media (max-width :755px) 
+{
+    .carousel-indicators {
+        display:none;
+    }
+}
+
+
